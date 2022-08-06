@@ -7,6 +7,7 @@ from cameraMatrix import cameraMatrix
 from implicitSphere import implicitSphere
 from shader import shader
 
+print("Generating Image")
 NP = 1.0
 FP = 25.0
 
@@ -36,5 +37,6 @@ for i in range(window.getWidth()):
         direction = camera.getRay(window,i,j)
         iList = camera.minimumIntersection(direction,objectList)
         if iList != []: window.drawPoint((i,j),shader(iList[0],direction,camera,objectList,light).getShade())
+print("Image Generated")
 window.saveImage("assignment4Image.png")
 window.showImage()
