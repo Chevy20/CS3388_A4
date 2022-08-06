@@ -6,7 +6,7 @@ The image generated is:
 
 ![assignment4Image](https://user-images.githubusercontent.com/11688989/183265290-c60f25d9-e7d2-4a42-aafa-825db2354d0f.png)
 
-##To Generate this image yourself: 
+## To Generate this image yourself: 
 
 ### Setup
 - Make sure you have the python runtime environment downloaded. Vist https://www.python.org/downloads/ to download the latest version of python <br>
